@@ -1,0 +1,54 @@
+<html>
+  <head>
+     <title>Pedido de platillo</title>
+  </head>
+ 
+  <body>
+ 
+   <h3>Platillo</h3>
+   <LINK REL=StyleSheet HREF="modificar_cancelar_oedido.css" >
+   <form> 
+ 
+     <fieldset>
+       <legend>PLATILLO</legend>
+ 
+          <p>Ingredientes</p>
+          <input type="checkbox" name="queso" /> <label>Queso</label><br/>
+          <input type="checkbox" name="pimiento" /> <label>Pimiento</label><br/>
+          <input type="checkbox" name="cebolla" /><label> Cebolla</label> 
+          <input type="checkbox" name="OTRO" /><label> OTRO</label> 
+ 
+          <p>Tamaño</p>
+          <input type="radio" name="tamano" /><label> Pequeña</label><br/>
+          <input type="radio" name="tamano" /><label> Mediana </label><br/> 
+          <input type="radio" name="tamano" /> <label>Grande</label>
+     </fieldset>
+ 
+ 
+     <fieldset>
+        <legend>Datos de entrega</legend>
+          <label>Nombre</label><input type="text" name="nombre"/><br/>
+          <label>Dirección</label><input type="text" name="direccion"/><br/>
+          <label>Teléfono</label><input type="text" name="telefono"/><br/>
+          <label>Instrucciones especiales</label><br/><textarea cols="40" rows="15"></textarea> 
+ 
+     </fieldset>
+ 
+     <fieldset>
+       <legend>Método de pago</legend>
+          <select>
+             <option>Efectivo</option>
+             <option>VISA</option>
+             <option>Bizum</option> 
+          </select>
+      </fieldset>
+ 
+ 
+     <input type="submit" id="ok" value="GUARDAR MODIFICACIONES">
+     <input type="button" value="ELIMINAR PEDIDO"><br>
+     <input type="button" value="Enviar datos"><br>
+  </form>
+ 
+</body>
+ 
+</html>
