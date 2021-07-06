@@ -1,0 +1,21 @@
+body{
+ position:none;
+ top:50%;
+ width:50%;
+ padding:3px;
+ border:10px solid;
+ background:salmon;
+ margin: 5px 10px;
+ text-align: center; 
+  }
+div{
+position:static;
+ width:50%;
+ color:blue;
+ padding:15px;
+ border: blue 5px dashed;
+background:salmon;
+text-align:center;/* coloca el texto centrado*/
+font-weight:bold; /se especifica el peso o grosor de la fuente./
+font-size:2.0em; /especifica la dimensión de la letra/
+}
