@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTRO DE MENU</title>
+    <link rel="stylesheet" href="CSS/EstilosForm.css">
+    </head>
+    <body>
+        <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+    <div class="caja_titulo">
+        <h1>REGISTRO DE MENU</h1>
+        </div>
+            </div>
+	</header>
+	<div class="capa"></div>
+            
+        <input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="#">Inicio</a>
+			<a href="#">Mis pedidos</a>
+			<a href="#">Configuracion</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+        <form action="BD_Registar_Menu.php" method="post" class="regis">
+            <h2 class="ftitulo">CREAR MENU</h2>
+            <div class="contenedor">
+            
+    <input class="controls" type="text" placeholder="Nombre del platillo" maxlength="50" name="nombreplatillo" required><br>
+            
+                <input class="controls" type="text" placeholder="Precio" maxlength="5" name="precio" required><br>
+                
+                <input class="controls2" type="text" placeholder="Descripcion del platillo" maxlength="100" name="descripcionplatillo" required><br>
+                
+                
+                <div class="controls3"><form name="subirimagenes" type="POST" enctype="multipart/formdata" >
+                   <input type="file" name="imagenplatillo" />
+                    </form></div> <br> <br>
+                
+                <input class="boton" type="submit" value="Registrar">
+                <input class="boton" type="reset" value="Borrar">
+                
+               
+                
+                
+            </div>
+        </form>
+    </body>
+</html>
