@@ -1,0 +1,39 @@
+img.izquierda{
+
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+h1{
+
+text-align: center;
+font-size: 50px;
+margin-right:90px;
+
+}
+
+header p {
+          clear: both;
+}
+
+h2{
+
+text-align: center;
+font-size: 30px;
+color:black;
+
+}
+
+article{
+	background:orange;
+        color:black;
+	width:60%;
+	height:450px;
+}
+footer{
+         text-align:center;
+         background:orange;
+}

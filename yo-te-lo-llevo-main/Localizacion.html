@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Ubicacion</title>
+<link rel="stylesheet" href="mapa.css">
+<meta charset="UTF-8">
+
+</head>
+
+<body>
+
+<div id="mapa"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB44BfPYmAI_Aeg3HFsJE-L__sZo-wVr9w&callback=initMap" async defer></script>
+
+<script>
+    var mapa;
+   function initMap(){
+
+         mapa = new google.maps.Map(document.getElementById('mapa'),{
+
+                   center: {lat: 19.636367, lng: -98.986925}, zoom: 18
+             });
+
+}
+</script>
+
+
+</body>
+
+</html>

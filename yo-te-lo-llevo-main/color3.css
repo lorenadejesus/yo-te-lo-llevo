@@ -1,0 +1,21 @@
+.nav{
+	background="orange";
+	color="blkack";
+	}	
+.form{ 
+	width: 400px;
+	padding:25px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#f7a9348c
+	}
+
+
+.boton { 
+	
+	border-radius:10px;
+	margin:auto;
+	background-color:#F39C12
+	
+
+	}

@@ -1,0 +1,30 @@
+.form{ 
+	width: 400px;
+	padding:50px;
+	border-radius:15px;
+	margin:auto;
+	background-color:#f7a9348c
+	}
+
+	.body {
+		font-family: 'MODERN LOVE CAPS';
+		background: #FF5F6D; 
+	  background: -webkit-linear-gradient(to right,  #edf7f58a, #f7a9348c); 
+	  background: linear-gradient(to right, #edf7f58a, #f7a9348c); 
+  
+  
+	  width: 100%;
+	  height: 800px;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+  
+	}
+.boton { 
+	
+	border-radius:10px;
+	margin:auto;
+	background-color:#F39C12
+	
+
+	}
